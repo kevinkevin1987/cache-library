@@ -24,9 +24,24 @@ python setup.py install
 
 Basic usage
 1) Import library
-'''python
+```python
 >>> from cache-library import CacheLibrary
-'''
+```
+2) Create dictionary call 'sample' with '50' maximum items and timer of '10' seconds 
+```python
+>>> sample = CacheLibrary(max_len=50,timer=10)
+```
+3) Put or replace 'value' for 'key'.
+```python
+>>> sample['key'] = 'value'
+```
+4) Get value of a key in the dictionary
+   Returns 'value' if it is in the dictionary and False if not. If the key or dictionary had expired the command will return False.
+```python
+>>> sample.get['key']
+'value'
+```
+5) 
 >>> cache.has('key')
 False
 >>> cache.get('key', default='default')
