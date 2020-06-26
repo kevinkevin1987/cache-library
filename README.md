@@ -23,8 +23,10 @@ python setup.py install
 ## Examples
 
 Basic usage
-```python
->>> from minicache import cache
+1) Import library
+'''python
+>>> from cache-library import CacheLibrary
+'''
 >>> cache.has('key')
 False
 >>> cache.get('key', default='default')
