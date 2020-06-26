@@ -1,24 +1,9 @@
 # cache-library
 cache-library is a Python caching library. It creates an ordered dictionary with an user defined maximum lenght and values that automatically expires when the timer is up. The dictionary and values can expires at different time but the values maximum timer is the timer of the dictionary. During expiration the object is locked during cleanup. If the dictionary is full, the oldest value is deleted,
 
-## Installation
-
-Install from PyPI:
-```
-pip install cache-library
-```
-Or using alternative command:
-```
-pip install https://github.com/kevinkevin1987/cache-library/archive/master.zip
-```
-Or from source use:
-```
-python setup.py install
-```
-
 ## Supported python versions
 
-* at least 2.7
+* at leasts 2.7
 
 ## Examples
 
