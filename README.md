@@ -73,7 +73,7 @@ True
 >>> sample.CacheValuesTime()
 [('key','value',5.9555263519218711)]
 ```
-## Design consideration
+## Design considerations
 1) Local caching vs network/cloud caching
 Local caching has the advantage of being fast, as it does not require any access to a remote cache over the network. Using network/cloud based chaching would cause the network speed to slow down the speed of chaching
 2) Maximum items available for the caching
