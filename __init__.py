@@ -83,7 +83,8 @@ class CacheLibrary(OrderedDict):
                 return False
             else:
                 del self[key]
-                return temp
+                temp_ttl = temp[1] - time.time()
+                return temp[0], temp_ttl
 
     def get(self, key, default=None, with_age=False):
         """ Create function get. """
