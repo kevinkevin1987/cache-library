@@ -80,5 +80,4 @@ True
 
 ## Contributing
 
-If you have suggestions for improving, please [open an issue or
-pull request on GitHub](https://github.com/duboviy/minicache/).
+If you have suggestions for improving, please [open an issue](https://github.com/kevinkevin1987/cache-library/).
