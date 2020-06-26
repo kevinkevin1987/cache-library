@@ -71,7 +71,7 @@ True
    Would only show keys that have not expired. If dictionary is empty would show **[]**.
 ```python
 >>> sample.CacheValuesTime()
-[('key','value',)]
+[('key','value',5.9555263519218711)]
 ```
 
 ## License
